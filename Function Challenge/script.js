@@ -1,0 +1,10 @@
+// Створити ф-цію, яка отримає випадкове число з певного масиву, який ми передаємо
+function getRandom(arr) {
+    const randomIndex = Math.floor(Math.random() * arr.length);
+
+    const item = arr[randomIndex];
+
+    console.log(item);
+}
+
+getRandom([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
